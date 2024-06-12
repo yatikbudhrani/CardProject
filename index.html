@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Project</title>
+  </head>
+
+  <body class="flex bg-[#d0b783] h-[100vh] justify-center items-center">
+    <div
+      id="container"
+      class="flex bg-[#e5c3c6] flex-col w-[500px] gap-5 items-start shadow-xl rounded-xl px-6 py-5"
+    >
+      <h1 class="text-center text-2xl font-bold w-full">
+        User Information Card
+      </h1>
+      <div class="flex flex-col gap-3">
+        <div class="flex gap-2">
+          <span class="font-semibold capitalize">First Name => </span>
+          <span id="fname" class="capitalize"></span>
+        </div>
+        <div class="flex gap-2">
+          <span class="font-semibold capitalize">Last Name => </span>
+          <span id="lname" class="capitalize"></span>
+        </div>
+        <div class="flex gap-2">
+          <span class="font-semibold capitalize">country => </span>
+          <span id="country" class="capitalize"></span>
+        </div>
+        <div class="flex gap-2">
+          <span class="font-semibold capitalize">phone number => </span>
+          <span id="phnNo" class="capitalize"></span>
+        </div>
+        <div class="flex gap-2">
+          <span class="font-semibold capitalize">state => </span>
+          <span id="state" class="capitalize"></span>
+        </div>
+        <div class="flex gap-2">
+          <span class="font-semibold capitalize">city => </span>
+          <span id="city" class="capitalize"></span>
+        </div>
+        <div class="flex gap-2">
+          <span class="font-semibold capitalize">village => </span>
+          <span id="village" class="capitalize"></span>
+        </div>
+      </div>
+    </div>
+    <div style="padding: 1rem">
+      <button
+        id="btn"
+        type="button"
+        class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+      >
+        Change Theme
+      </button>
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
